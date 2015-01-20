@@ -1,0 +1,8 @@
+multi_step.multi_step_form:
+  path: '/multi/step/form'
+  defaults:
+    _form: '\Drupal\multi_step\Form\MultiStepForm'
+    _title: 'Multi Step Form'
+  requirements:
+    _permission: 'access administration pages'
+
